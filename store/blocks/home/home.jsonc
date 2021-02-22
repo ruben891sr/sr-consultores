@@ -96,14 +96,14 @@
 
   "rich-text#question": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "text": "**Esta es una muestra de como sería tu sitio.\nQuieres saber más?**",
       "blockClass": "question"
     }
   },
 
   "rich-text#link": {
     "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "text": "\n**Contáctanos en**\nwww.sr-consultores.com",
       "blockClass": "link"
     }
   }

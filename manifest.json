@@ -1,6 +1,6 @@
 {
-  "vendor": "vtex",
-  "name": "store-theme",
+  "vendor": "srconsultores",
+  "name": "sr-qa",
   "version": "4.3.0",
   "builders": {
     "styles": "2.x",

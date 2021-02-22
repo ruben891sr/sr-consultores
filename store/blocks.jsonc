@@ -18,7 +18,7 @@
       "challenge": "challenge.profile"
     }
   },
-
+  
   "store.login": {
     "blocks": ["login-content#default"]
   },
@@ -28,7 +28,7 @@
       "isInitialScreenOptionOnly": false,
       "defaultOption": 1,
       "showPasswordVerificationIntoTooltip": true
-    }
+    } 
   },
 
   "store.product-review-form": {
