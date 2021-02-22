@@ -7,7 +7,7 @@
   "product-specification#summary": {
     "children": [
       "flex-layout.row#summarySpecificationValues"
-    ]
+    ] 
   },
   "flex-layout.row#summarySpecificationValues": {
     "props": {
