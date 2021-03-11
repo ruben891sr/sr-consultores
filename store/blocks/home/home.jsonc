@@ -20,7 +20,7 @@
 
   "challenge.trade-policy-condition": {
     "props": {
-      "redirectPath": "/login"
+      "redirectPath": "/account"
     }
   },
 
