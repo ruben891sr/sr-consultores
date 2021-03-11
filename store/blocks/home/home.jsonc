@@ -12,7 +12,16 @@
       "rich-text#question",
       "rich-text#link",
       "newsletter"
-    ]
+    ],
+    "parent": {
+       "challenge": "challenge.trade-policy-condition"
+      }
+  },
+
+  "challenge.trade-policy-condition": {
+    "props": {
+      "redirectPath": "/login"
+    }
   },
 
   "list-context.image-list#demo": {
