@@ -14,6 +14,8 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
+    "vtex.challenge-tp-condition": "0.x",
+    "vtex.sku-list": "1.x",
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
     "vtex.product-summary": "2.x",
@@ -61,8 +63,7 @@
     "vtex.store-form": "0.x",
     "vtex.product-highlights": "2.x",
     "vtex.product-specifications": "1.x",
-    "vtex.tab-layout": "0.x",
-    "vtex.challenge-tp-condition": "0.x"
+    "vtex.tab-layout": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "2.x"
