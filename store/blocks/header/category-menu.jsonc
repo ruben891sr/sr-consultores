@@ -4,9 +4,9 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-apparel"
+      // "menu-item#category-home",
+      // "menu-item#more"
     ]
   },
   "menu-item#category-apparel": {
@@ -17,10 +17,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/baterias",
+        "href": "/gourmet",
         "noFollow": false,
         "tagTitle": " Baterias",
-        "text": " Baterías"
+        "text": " Gourmet"
       }
     }
   },

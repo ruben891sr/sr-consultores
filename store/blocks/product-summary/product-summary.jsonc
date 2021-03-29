@@ -21,7 +21,7 @@
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
-      "vtex.product-highlights@2.x:product-highlights#collection",
+      "vtex.product-highlights@2.x:product-highlights",
       "modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
@@ -34,20 +34,20 @@
     }
   },
 
-  "vtex.product-highlights@2.x:product-highlights#collection": {
+  "vtex.product-highlights@2.x:product-highlights": {
     "props": {
-      "type": "collection"
+      "type": "promotion"
     },
     "children": ["product-highlight-wrapper"]
   },
   "product-highlight-wrapper": {
     "props": {
-      "blockClass": "collection"
+      "blockClass": "promotion"
     },
     "children": ["product-highlight-text"]
   },
   "product-highlight-text": {
-    "props": {
+    "props": { 
       "message": "{highlightName}"
     }
   },
