@@ -1,0 +1,165 @@
+{
+    "store.custom#trabaja-con-nosotros": {
+        "blocks": [
+            "flex-layout.row#titulo-tcn",
+            "flex-layout.row#textoIntro-tcn",
+            "flex-layout.row#formularioTrabajo"
+        ]
+    },
+
+    //Titulo de pagina
+    "flex-layout.row#titulo-tcn": {
+        "props": {
+            "fullWidth": true,
+            "preventVerticalStretch": false,
+            "preventHorizontalStretch": false,
+            "blockClass": "rowBanner-tcn-Title"
+        },
+        "children": ["flex-layout.col#titleTrabajaConNosotros"]
+    },
+    "flex-layout.col#titleTrabajaConNosotros": {
+        "props": {
+            "width": "80%",
+            "blockClass": "colInstitucionalTitle"
+        },
+        "children": ["rich-text#titulo-tcn"]
+    },
+    "rich-text#titulo-tcn": {
+        "props": {
+            "blockClass": "tituloInstitucional",
+            "text": "Trabaja con Nosotros"
+        }
+    },
+
+    //Texto de introducción
+    "flex-layout.row#textoIntro-tcn": {
+        "props": {
+            "fullWidth": true,
+            "preventVerticalStretch": false,
+            "preventHorizontalStretch": false,
+            "blockClass": "rowContenidoInstitucional"
+        },
+        "children": [
+            "flex-layout.col#titulotcn",
+            "flex-layout.col#contenidotcn"
+        ]
+    },
+    "flex-layout.col#titulotcn": {
+        "props": {
+            "textAlignment": "center",
+            "blockClass": "colTitulo"
+        },
+        "children": ["rich-text#titulotcn"]
+    },
+
+    // Definición contenido
+    "flex-layout.col#contenidotcn": {
+        "props": {
+            "blockClass": "colContenido",
+            "textAlignment": "center"
+        },
+        "children": ["rich-text#Contenidotcn"]
+    },
+
+    "rich-text#titulotcn": {
+        "props": {
+            "blockClass": "Titulo-Seccion",
+            "textPosition": "CENTER",
+            "text": "¡Buscamos gente talentosa como tu!"
+        }
+    },
+    "rich-text#Contenidotcn": {
+        "props": {
+            "blockClass": "textoContenido",
+            "textPosition": "CENTER",
+            "text": "En Pillin puedes ser parte de una empresa líder en vestuario y calzado infantil"
+        }
+    },
+
+    // Formulario Trabaja con nosotros
+    "flex-layout.row#formularioTrabajo": {
+        "props": {
+            "blockClass": "rowFormulariotcn"
+        },
+        "children": ["flex-layout.col#form-tcn"]
+    },
+    "flex-layout.col#form-tcn": {
+        "children": ["form#tcn"]
+    },
+    "form#tcn": {
+        "props": {
+            "entity": "form2",
+            "schema": "trabaja"
+        },
+        "children": [
+            "rich-text#formTitle-tcn",
+            "form-input.text#nombre",
+            "form-input.text#apellido",
+            "form-input.text#mail",
+            "form-input.text#telefono",
+             // "form-input.upload",
+            "form-input.textarea#mensaje",
+            "form-input.upload#upload",
+            "form-submit#enviar"
+        ],
+        "blocks": ["form-success#envioExitoso-tcn"]
+    },
+    "form-success#envioExitoso-tcn": {
+        "children": ["rich-text#successSubmittcn"]
+    },
+    "rich-text#successSubmittcn": {
+        "props": {
+            "text": "¡Datos enviados exitosamente!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#formTitle-tcn": {
+        "props": {
+            "text": "Trabaja con Nosotros",
+            "blockClass": "titleContacto"
+        }
+    },
+    "form-input.text#nombre": {
+        "props": {
+            "pointer": "#/properties/nombre"
+        }
+    },
+    "form-input.text#apellido": {
+        "props": {
+            "pointer": "#/properties/apellido"
+        }
+    },
+    "form-input.text#mail": {
+        "props": {
+            "pointer": "#/properties/mail"
+        }
+    },
+    "form-input.text#telefono": {
+        "props": {
+            "pointer": "#/properties/telefono"
+        }
+    },
+    "form-input.upload#upload": {
+        "props": {
+          "pointer": "#/properties/upload"
+        }
+    },
+    // "form-input.upload":{
+    //     "props":{
+    //         "pointer": "#/properties/CV",
+    //         "label": "CV de postulante"
+    //     }
+    // },
+    "form-input.textarea#mensaje": {
+        "props": {
+            "pointer": "#/properties/mensaje",
+            "label": "Descripción"
+        }
+    },
+    "form-submit#enviar": {
+        "props": {
+            "label": "Enviar"
+        }
+    }
+}
